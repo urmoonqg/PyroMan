@@ -15,7 +15,7 @@ load_dotenv(".env")
 
 
 API_HASH = getenv("3a96c33357667f5d8a6f6991288d1e3a")
-API_ID = int(getenv("27843871", ""))
+API_ID = int(getenv("API_ID", "27843871"))
 BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
     BLACKLIST_CHAT = [-1001473548283]
